@@ -59,3 +59,4 @@ function square($max_size, $small_size)
 }
 
 var_dump(square(100, 19));
+echo "GHBDTN";
