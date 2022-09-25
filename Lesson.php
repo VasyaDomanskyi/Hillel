@@ -95,45 +95,8 @@ echo '<br>';
 var_dump($obj1->getAge());
 //попытка
 echo '<br>';
-var_dump (gmp_add($obj1->getAge().$age=22));
+var_dump (gmp_add($obj1->getAge(),$age=22));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    /**  public function test_function (int $a): int
-    {
-     return $this->test= $a;
-
-    }
-
-    public function get_Test (): int
-    {
-        return $this->test;
-    }
-}
-
-class FullBar extends ClassName
-    {
-        public function print_str (string $str): string
-        {
-           return $this->string . $str;
-        }
-
-    }
-$obj1 = new FullBar;
-
-var_dump($obj1->test_function(10));
-var_dump($obj1->get_test());
-var_dump($obj1->print_str("str ->func"));
-*/
+echo "С чего начинать 3 задание?";
